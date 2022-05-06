@@ -1,0 +1,22 @@
+$color-fondo: rgb(43, 221, 153)
+
+
+.opciones{
+    display: grid;
+    grid-template-columns: repeat(3, 33,3%);
+    // grid-template-rows: repeat(1, 500px);
+    gap: 1px 1px;
+    grid-template-areas: "yerba1 yerba 2 yerba3";
+    .card{
+
+    }
+        .yerba1{
+            color: $color-fondo;
+        }
+        .yerba2{
+            color: $color-fondo;
+        }
+        .hierba3{
+            color: $color-fondo;
+        }
+}

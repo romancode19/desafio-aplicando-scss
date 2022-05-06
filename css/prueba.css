@@ -1,0 +1,5 @@
+.opciones {
+  display: grid;
+  grid-template-columns: repeat(3, 33, 3%);
+  gap: 1px 1px;
+  grid-template-areas: "yerba1 yerba 2 yerba3"; }
